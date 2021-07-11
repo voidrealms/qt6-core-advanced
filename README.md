@@ -1,6 +1,6 @@
 # qt6-core-advanced
 
-Qt 6 Core Advanced
+Qt 6 Core Advanced with C++ on Udemy
 
     1 Welcome to the course
         1 What does this course cover
