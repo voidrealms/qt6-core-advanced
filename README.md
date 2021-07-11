@@ -131,7 +131,7 @@ Qt 6 Core Advanced with C++ on Udemy
         4 Shared vs Static builds
         5 Millions of ways to deploy
         6 Test application
-        7 Deploying on Mac         (Audio is bad)
+        7 Deploying on Mac
         8 Deploying on Linux
         9 Deploying on Windows
         10 Building Qt Both Dynamic and Static
