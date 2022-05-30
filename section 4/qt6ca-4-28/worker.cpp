@@ -21,7 +21,7 @@ void Worker::post(QString location, QByteArray data)
 {
     qInfo() << "Posting to the server...";
     QNetworkRequest request = QNetworkRequest(QUrl(location));
-    request.setHeader(QNetworkRequest::ContentTypeHeader, "test/plain"); //mime type
+    request.setHeader(QNetworkRequest::ContentTypeHeader, "text/plain"); //mime type
 
     QNetworkReply* reply = manager.post(request,data);
     connect(reply,&QNetworkReply::readyRead,this,&Worker::readyRead);
