@@ -26,7 +26,8 @@ private slots:
     void readyRead();
     void authenticationRequired(QNetworkReply *reply, QAuthenticator *authenticator);
     void encrypted(QNetworkReply *reply);
-    void finished(QNetworkReply *reply);
+    //void finished(QNetworkReply *reply);
+    void finished();
     void preSharedKeyAuthenticationRequired(QNetworkReply *reply, QSslPreSharedKeyAuthenticator *authenticator);
     void proxyAuthenticationRequired(const QNetworkProxy &proxy, QAuthenticator *authenticator);
     void sslErrors(QNetworkReply *reply, const QList<QSslError> &errors);
