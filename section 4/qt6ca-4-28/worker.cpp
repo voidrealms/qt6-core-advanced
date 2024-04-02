@@ -47,9 +47,10 @@ void Worker::encrypted(QNetworkReply *reply)
     qInfo() << "encrypted";
 }
 
-void Worker::finished(QNetworkReply *reply)
+//void Worker::finished(QNetworkReply *reply)
+void Worker::finished()
 {
-    Q_UNUSED(reply);
+    QNetworkReply* reply = qobject_cast<QNetworkReply*>(sender());
     qInfo() << "finished";
     reply->deleteLater();
 }
